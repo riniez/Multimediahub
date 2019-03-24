@@ -1,0 +1,211 @@
+﻿@font-face {
+    font-family: 'op';
+    src: url(OptimusPrinceps.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'op';
+}
+#wrapper {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100% !important;
+}
+section {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    margin: 0 auto;
+    max-width: 1440px;
+    overflow: hidden;
+    padding: 0;
+    width: 100% !important;
+}
+#bloque1 {
+    background-image: url("img/darksouls5.png");
+}
+#bloque2 {
+    background-image: url("img/darksouls2.jpg");
+}
+#bloque3 {
+    background-image: url("img/darksouls3.jpg");
+}
+#bloque4 {
+    background-image: url("img/darksouls4.jpg");
+}
+#nav{
+    top: 0px;
+position: fixed;    
+float: right; 
+margin: 0px;
+padding: 0px;   
+width: 100%;
+background-color: #00000088;
+color: white;
+font-weight: 900;
+}
+#nav ol{
+    float: right; 
+padding: 0px;
+list-style: none;
+display: flex;
+}
+#nav ol li{
+border-right: 1px solid #3b05059f;
+border-left: 1px solid #3b05059f;
+}
+#nav ol li a{
+color: white;
+text-decoration: none;
+display: block;
+padding: 15px 20px;
+}
+#nav ol li :hover{
+    background-color: white;
+    color: black;
+}
+h1 {
+    background-color: #3b05059f;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 3em;
+    opacity: 0.76;
+    text-align: center;
+    text-shadow: 1px 1px 1px #666;
+    text-transform: uppercase;
+    width: 100%;
+}
+h2 {
+    color: #fff;
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 2em;
+    opacity: 0.85;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ccc;
+    text-transform: uppercase;
+}
+/*#logo {
+    display: block;
+    margin: 6em auto 0;
+    opacity: 0.8;
+    width: 200px;
+}*/
+#bloque1 p {
+    background-color: #000000ad;
+    border-radius: 2em;
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 7em auto;
+    max-width: 800px;
+    padding: 1.5em;
+}
+#bloque2 p {
+    background-color: #000000ad;
+    border-radius: 2em;
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 7em auto;
+    max-width: 800px;
+    padding: 1.5em;
+}
+#bloque3 p {
+    background-color: #000000ad;
+    border-radius: 2em;
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 7em auto;
+    max-width: 800px;
+    padding: 1.5em;
+}
+#bloque4 p {
+    background-color: #000000ad;
+    border-radius: 2em;
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 7em auto;
+    max-width: 800px;
+    padding: 1.5em;
+}
+.backtop{
+    width: 40px;
+    height: 40px;
+    display: fixed; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+}
+#navsocial{
+    display: fixed; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 35%;
+    left: 0%;
+    z-index: 99; /* Make sure it does not overlap */
+    list-style-type: none; 
+}
+.socialicon{
+    height: 60px;
+    width: 60px;
+}
+#footer{
+    text-align: center;
+    background-color:  #000000;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-weight: 700;
+    bottom: 0;
+}
+input{
+    margin-left: 5%;
+    width: 300px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 5%;
+}
+label{
+    margin-left: 6%;
+    color: white;
+    font-size: 14pt;
+}
+textarea{
+    margin-left: 5%;
+    width: 970px;
+    height: 100px;
+    border-radius: 2%;
+    resize: none;
+}
+.boton{
+    width: 200px;
+    height: 80px;
+    border-radius: 5%;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 13pt;
+    margin-bottom: 5%;
+    cursor: pointer;
+
+}
+.boton:hover{
+    background-color: #858585;
+    color: white;
+}

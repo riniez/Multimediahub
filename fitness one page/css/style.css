@@ -1,0 +1,174 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand';
+}
+#footer{
+    text-align: center;
+    background-color:  rgb(27, 27, 27);
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-family: sans-serif;
+    font-weight: 700;
+    bottom: 0;
+}
+#contenedor{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+#seccionads{
+    width: 32%;
+    float: left;
+}
+#seccion1{
+    padding-left: 8%;
+    width: 60%;
+    color: white;
+    float: left;
+}
+#nav{
+    top: 0px;
+position: fixed;    
+float: right; 
+margin: 0px;
+padding: 0px;   
+width: 100%;
+background-color: #20202079;
+color: white;
+font-weight: 900;
+}
+#nav ol{
+    float: right; 
+padding: 0px;
+list-style: none;
+display: flex;
+}
+#nav ol li{
+border-right: 1px solid #8d0000;
+border-left: 1px solid #8d0000;
+}
+#nav ol li a{
+color: white;
+text-decoration: none;
+display: table;
+padding: 15px 20px;
+}
+#nav ol li :hover{
+    background-color: white;
+    color: black;
+}
+
+#header{
+width: 100%;
+height: 422px;
+background-image: url(../img/fitbanner.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.backtop{
+    width: 40px;
+    height: 40px;
+    display: fixed; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+}
+#navsocial{
+    display: fixed; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 35%;
+    left: 0%;
+    z-index: 99; /* Make sure it does not overlap */
+    list-style-type: none; 
+}
+.socialicon{
+    height: 60px;
+    width: 60px;
+}
+h1{
+    color: #d30101;
+}
+h2{
+    color: #d30101;
+}
+p{
+    text-align: justify;
+    padding-bottom: 5%;
+    padding-right: 2%;
+}
+.flotarizq{
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.flotardere{
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.flotarcen{
+    float: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.imagetext{
+    width: 20%;
+    height: 20%;
+    border:3px solid #8d0000;
+}
+.imageads{
+    width: 80%;
+    height: 100%;
+    border:3px solid #8d0000;
+    margin-bottom: 60%;
+}
+.imagewaifu{
+    width: 40%;
+    height: 40%;
+}
+input{
+    margin-left: 5%;
+    width: 300px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 5%;
+}
+label{
+    margin-left: 6%;
+    color: white;
+    font-size: 14pt;
+}
+textarea{
+    margin-left: 5%;
+    width: 970px;
+    height: 100px;
+    border-radius: 2%;
+    resize: none;
+}
+.boton{
+    width: 200px;
+    height: 80px;
+    border-radius: 5%;
+    background-color: #000000;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 13pt;
+    margin-bottom: 5%;
+    cursor: pointer;
+
+}
+.boton:hover{
+    background-color: #420000;
+    color: white;
+}
+.reducir-parrafo{
+    width: 60%
+}
